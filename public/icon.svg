@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="128" fill="#0c0a09"/>
+  <!-- Outer Sacred Halo -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#d97706" stroke-width="4" stroke-opacity="0.3" stroke-dasharray="16 8"/>
+  <circle cx="256" cy="256" r="190" fill="none" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.5"/>
+  <circle cx="256" cy="256" r="160" fill="#1c1917" stroke="#b45309" stroke-width="3"/>
+  
+  <!-- Sacred Flame of Brahmacharya & Ojas -->
+  <defs>
+    <linearGradient id="flameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="40%" stop-color="#f59e0b"/>
+      <stop offset="80%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <radialGradient id="haloGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#0c0a09" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="256" cy="240" r="120" fill="url(#haloGlow)"/>
+
+  <!-- Flame Shape -->
+  <path d="M256,120 C270,180 320,210 320,270 C320,314 290,350 256,350 C222,350 192,314 192,270 C192,210 242,180 256,120 Z" fill="url(#flameGrad)"/>
+  <path d="M256,190 C264,225 292,245 292,280 C292,305 275,326 256,326 C237,326 220,305 220,280 C220,245 248,225 256,190 Z" fill="#ffffff" fill-opacity="0.85"/>
+
+  <!-- Lotus Petals at the Base -->
+  <path d="M256,350 C280,365 315,360 340,340 C330,370 295,385 256,385 C217,385 182,370 172,340 C197,360 232,365 256,350 Z" fill="#f59e0b"/>
+  <path d="M256,365 C275,378 300,375 320,360 C310,385 285,395 256,395 C227,395 202,385 192,360 C212,375 237,378 256,365 Z" fill="#d97706"/>
+</svg>

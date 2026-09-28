@@ -1,0 +1,7 @@
+{
+  "name": "Brahmacharya — 6 Month Challenge",
+  "description": "Daily morning and evening review, Sankalp reaffirmation, Niyams, 48-minute Siddhasana dhyana, Naam Jap Mala, and Indriyavijay discipline journal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
