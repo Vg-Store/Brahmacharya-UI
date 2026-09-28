@@ -107,7 +107,7 @@ export const DhyanaTimer: React.FC<DhyanaTimerProps> = ({
           <div className="flex items-center gap-2">
             <button
               onClick={() => handleAddSession(48)}
-              className="flex-1 sm:flex-none px-4 py-3 rounded-xl bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-500 hover:to-amber-600 active:scale-95 text-stone-950 font-bold text-xs shadow-md flex items-center justify-center gap-2 transition-all"
+              className="flex-1 sm:flex-none px-4 lg:px-2 py-3 rounded-xl bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-500 hover:to-amber-600 active:scale-95 text-stone-950 font-bold text-xs shadow-md flex items-center justify-center gap-2 transition-all lg:whitespace-nowrap"
             >
               <Check className="w-4 h-4 stroke-[2.5]" />
               <span>+ 48 min (Full Muhurta)</span>
@@ -115,7 +115,7 @@ export const DhyanaTimer: React.FC<DhyanaTimerProps> = ({
 
             <button
               onClick={() => handleAddSession(24)}
-              className="flex-1 sm:flex-none px-4 py-3 rounded-xl bg-stone-900 hover:bg-stone-800 border border-stone-700/80 active:scale-95 text-stone-200 font-semibold text-xs flex items-center justify-center gap-1.5 transition-all"
+              className="flex-1 sm:flex-none px-4 lg:px-2 py-3 rounded-xl bg-stone-900 hover:bg-stone-800 border border-stone-700/80 active:scale-95 text-stone-200 font-semibold text-xs flex items-center justify-center gap-1.5 transition-all lg:whitespace-nowrap"
               title="Add 24 minutes (Half Muhurta) for split sessions"
             >
               <Plus className="w-4 h-4" />
