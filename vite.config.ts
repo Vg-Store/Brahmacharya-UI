@@ -6,6 +6,8 @@ import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig(() => {
   return {
+    base: '/Brahmacharya-UI/',
+
     plugins: [
       react(),
       tailwindcss(),
